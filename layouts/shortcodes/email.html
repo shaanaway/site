@@ -8,3 +8,6 @@
     document.getElementById("ob-email-{{ .Get 0 }}").innerHTML = link;
   })();
 </script>
+<noscript>
+    {{ .Get 0 | safeHTML }} [at] {{  replace (.Get 1 | safeHTML) "." " [dot] " }}
+</noscript>
