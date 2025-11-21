@@ -1,0 +1,10 @@
+<span id="ob-email-{{ .Get 0 }}"></span>
+<script>
+  (function() {
+    const user = "{{ .Get 0 }}";
+    const domain = "{{ .Get 1 }}";
+    const email = user + "@" + domain;
+    const link = '<a href="mailto:' + email + '">' + email + '</a>';
+    document.getElementById("ob-email-{{ .Get 0 }}").innerHTML = link;
+  })();
+</script>

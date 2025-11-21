@@ -1,0 +1,7 @@
+baseURL: https://gurshaansandhu.org/
+languageCode: en-ca
+title: The Greatest Blog in the Universe
+copyright:  'The content of this site is [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)'
+theme: ["PaperMod"]
+params:
+  disableThemeToggle: true
