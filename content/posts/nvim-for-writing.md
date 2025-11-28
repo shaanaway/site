@@ -37,3 +37,10 @@ problem is a lack of proper nouns, but isn't that how every spell checker is?
 
 I feel like I should have more to say, but Neovim is simply too good to require any of the things other programs
 need to be good writing tools. Anyway, I have an English project due tonight I've been procrasting on for weeks. See you all later!
+
+## Errata
+
+2025-11-28: I have recently discovered
+[blink-cmp-words](https://github.com/archie-judd/blink-cmp-words),
+which pairs perfectly with the rest of my setup.
+
